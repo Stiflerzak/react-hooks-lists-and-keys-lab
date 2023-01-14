@@ -1,11 +1,11 @@
 const user = {
-  name: "Hilary",
+  name: "Hilary Kariuki",
   city: "Nairobi",
-  bio: "I made this!",
+  bio: "I am passionate about solving problems",
   color: "firebrick",
   links: {
     github: "https://github.com/stiflerzak",
-    linkedin: "https://www.linkedin.com/in/liza/",
+    linkedin: "https://www.linkedin.com/in/hilary-kariuki-9b972a17b/",
   },
   projects: [
     {
@@ -16,14 +16,14 @@ const user = {
     },
     {
       id: 2,
-      name: "Kibbles N Bitz",
-      about: "Tinder for dogs",
+      name: "Bank dashboard",
+      about: "Transactions ui",
       technologies: ["React", "Redux"],
     },
     {
       id: 3,
-      name: "Alienwares",
-      about: "Etsy for aliens",
+      name: "E commerce UI",
+      about: "Online ecommerce shop",
       technologies: ["React", "Redux", "Rails"],
     },
   ],

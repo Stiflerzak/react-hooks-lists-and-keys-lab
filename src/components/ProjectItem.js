@@ -1,11 +1,11 @@
 import React from "react";
-import user from "../data/user";
+
 
 
 function ProjectItem({ name, about, technologies }) {
 
- const technologyList= technologies.map((technology) => {
-return <li>{technology}</li>
+ const technologyList= technologies.map((technology,index) => {
+return <span>{technology}</span>
   })
 console.log({technologyList});
   return (
@@ -13,7 +13,7 @@ console.log({technologyList});
       <h3>{name}</h3>
       <p>{about}</p>
       <div className="technologies">
-        {<span>{technologies}</span>}
+        
         
         <span>{technologyList}</span>
       </div>
